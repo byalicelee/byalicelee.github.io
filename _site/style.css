@@ -396,6 +396,7 @@ color: #757070;
 	background-color:white;
 	overflow:auto; 
 	margin-bottom:20px;
+	display:inline-block
 }
 
 .alice {
@@ -453,6 +454,8 @@ color: #757070;
 .content{
 	text-align:center;
   max-width: 100%;
+  overflow:auto; 
+  
 }
 
 img {
