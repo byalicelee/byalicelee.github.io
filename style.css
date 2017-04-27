@@ -49,7 +49,7 @@ article, header, nav, section {
 .header {color:#888888;}
 
 
-.title, .banners a, .header, h2, .title, .pageSubtitle, h1 {
+.title, .banners a, .header, h2, .title, .pageSubtitle {
    font-size: 12px;
    font-weight: 200;
    font-family: Futura;
@@ -57,6 +57,19 @@ article, header, nav, section {
 	letter-spacing:2px;
 }
 
+h1 {
+   font-size: 14px;
+   font-weight: 200;
+   font-family: Futura;
+   letter-spacing: 2px;
+}
+
+.description {
+	float:right;
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size:12px;
+	color:grey;
+}
 .sectionHeader {
 	font-family: "freight-text-pro",Georgia,serif;
 	font-size: 16pt;
@@ -156,7 +169,7 @@ a:hover {
 p {
 font-family: "freight-text-pro",Georgia,serif;
 	
-	font-size: 12pt;
+	font-size: 10pt;
 	line-height: 1.8em;
 color: #757070;
 }
@@ -173,16 +186,13 @@ color: #757070;
 
 .pages img {
 	height:auto;
-
-   width: 750px;
+	max-width:100%;
 }
 
 .div {
    padding: 60px 0;
    height: 2px;
-   opacity: .2;
    clear: both;
-   width: 700px;
 	}
 	
 	
@@ -344,27 +354,43 @@ color: #757070;
    width: 170px;
 }
 
-.lg-1 img {
+.lg-3 {
+	width:600px;
+}
+.lg-4 {
+	width:330px;
+	margin: 0 20px;
+	float:left;
+}
+
+.lg-4 .spot{
+   width: 85%;
+   padding-top: 50px;
+	padding-bottom:30px;
+	margin:0 auto;
+}
+.lg-1 .spot {
    width: 130px;
    padding-top: 100px;
    padding-left: 10px;
-   padding-bottom: 30px;}
+   padding-bottom: 30px;
+}
 
 .lg-2 {
 	float:right;
+	height: 367px;
+	overflow: hidden;
 }
 
 .lg-2 .proj {
-	max-height:100%;
-	height:367px;
-   width: 770px;
-   max-width: 100%;
-   background-size: 100%;
-   background-repeat: no-repeat;
+
+	 width: 750px;
+		 
 }
 
 .lg-2 img {
 	    float: right;
+		     height: 350px;
 }
 .lg, .sm {
 	background-color:white;
