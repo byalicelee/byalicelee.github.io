@@ -64,12 +64,6 @@ h1 {
    letter-spacing: 2px;
 }
 
-.description {
-	float:right;
-	font-family: "freight-text-pro",Georgia,serif;
-	font-size:12px;
-	color:grey;
-}
 .sectionHeader {
 	font-family: "freight-text-pro",Georgia,serif;
 	font-size: 16pt;
@@ -223,7 +217,21 @@ color: #757070;
 .sm h1 {
 	margin:15px 0 15px 30px;
 	text-align:left;
+	 float: left;
 }
+
+
+.description {
+	float:right;
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size:12px;
+	color: #cecece;
+	    font-style: italic;
+	    padding-right: 20px;}
+		 
+ .comingSoon {
+	 opacity:.4;
+ }
 
 .left {
 	margin-right:20px;
@@ -418,15 +426,15 @@ color: #757070;
 }
 
 .abstract-left {
-   margin-top: 10px;
-	margin-left:-30px;
-   background-repeat: no-repeat;
-   background-position: 0px;
-	    padding: 90px 0 0 60px;
+    margin-top: 0;
+    margin-left: -30px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    padding: 40px 0 0 60px;
 }
 
 .head {
-    margin: 0 0 50px 0;	    overflow: visible;
+    margin: 0 0 30px 0;	    overflow: visible;
 
 }
 
