@@ -172,13 +172,12 @@ a:hover {
 }
 
 p {
-font-family: "freight-text-pro",Georgia,serif;
-	
-	font-size: 10pt;
+	font-family: "freight-text-pro",Georgia,serif;
+	font-size: 11pt;
+	font-weight:400;
 	line-height: 1.8em;
-color: #757070;
-clear: both;
-
+	color: #757070;
+	clear: both;
 }
 
 .about p {
