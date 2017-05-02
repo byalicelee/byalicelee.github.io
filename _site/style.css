@@ -58,7 +58,7 @@ br {clear:both;}
 }
 
 h1 {
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 200;
   font-family: "futura-pt",sans-serif;
    letter-spacing: 2px;
@@ -243,12 +243,12 @@ p {
 .description {
 	float:right;
 	font-family: "freight-text-pro",Georgia,serif;
-	font-size:12px;
+	font-size:14px;
 	color: #cecece;
 	font-style: italic;
 	padding-right: 20px;
 	clear: none;
-	    padding-top: 4px;
+	    padding-top: 0px;
 	 
 	 }
 		 
@@ -452,6 +452,10 @@ iframe {max-width:90%;
 	display:inline-block
 }
 
+.sm.left {
+	    margin-right: 20px;
+}
+
 .alice {
    font-size: 36px;
    color: #B4B2B7;
@@ -640,5 +644,9 @@ max-width:90%;
 
 .right {
 	float:right;
+}
+
+.wp-proj{
+	max-width: 100%;
 }
 /* I got 99 problems, but this last line ain't one */
