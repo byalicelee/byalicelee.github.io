@@ -13,3 +13,7 @@
 .blob01, .blob03{
 	display:none;
 }
+
+.gradient-bg{
+	    background-image: linear-gradient(transparent 140px, rgb(184, 223, 147) 0px) !important;
+}
