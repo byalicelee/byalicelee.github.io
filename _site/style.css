@@ -48,7 +48,7 @@ article, header, nav, section {
 
 .header {color:#888888;}
 
-
+br {clear:both;}
 .title, .banners a, .header, h2, .title, .pageSubtitle {
    font-size: 12px;
    font-weight: 200;
@@ -64,9 +64,17 @@ h1 {
    letter-spacing: 2px;
 }
 
+.pages h1 {
+	text-transform: uppercase;
+    margin-bottom: -15px;
+    padding: 0;
+    font-size: 12px;
+    margin-top: 50px;
+}
+
 .sectionHeader {
 	font-family: "freight-text-pro",Georgia,serif;
-	font-size: 16pt;
+	font-size: 28px;
 	line-height: 1.8em;
 	font-style: italic;
 	color: #888;
@@ -176,7 +184,7 @@ p {
 	font-size: 11pt;
 	font-weight:400;
 	line-height: 1.8em;
-	color: #757070;
+	color: #545454;
 	clear: both;
 }
 
@@ -248,9 +256,7 @@ p {
 	 opacity:.5;
  }
 
-.left {
-	margin-right:20px;
-}
+
 
 
 
@@ -324,6 +330,10 @@ iframe {
 
 .text {
 	margin: 35px auto;
+}
+
+.quote {
+	    font-size: 19px;
 }
 
 .foot p {
@@ -597,7 +607,7 @@ a{
 }
 
 .text.left, .text.right{
-   width: 340px;
+   width: 330px;
    clear: none;
    text-align: left;
 	padding-top:30px;
@@ -605,11 +615,25 @@ a{
 }
 
 .text.right {
-   padding-right: 90px;
+   padding-right: 110px;
+       padding-top: 0;
 }
 
 .text.left {
-   padding-left: 90px;
+   padding-left: 80px;
+}
+
+.caption {
+width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "futura-pt",sans-serif;
+    padding-bottom: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #c0c0c0;
+    padding-bottom: 60px;
 }
 
 .right {
