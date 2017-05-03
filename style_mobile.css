@@ -17,3 +17,8 @@
 .gradient-bg{
 	    background-image: linear-gradient(transparent 140px, rgb(184, 223, 147) 0px) !important;
 }
+
+img, video, object{ max-width: 90% }
+
+.proj img {
+	max-width:90%;}
