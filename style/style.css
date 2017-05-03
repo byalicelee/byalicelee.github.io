@@ -330,7 +330,7 @@ iframe {max-width:90%;
 	
 }
 
-.text {
+.text, ul{
 	margin: 35px auto;
 	font-size:12pt;
 }
@@ -339,6 +339,20 @@ iframe {max-width:90%;
 	    font-size: 19px;
 }
 
+.highlight {
+	font-size:13pt;
+}
+
+li {
+	color:#666666;
+	font-weight:400;
+	padding:10px 0;
+	margin:0;
+	line-height:1.6em;
+	text-align: left;
+}
+
+ul {padding-top:0px;margin-top:0px !important;}
 .foot p {
 	margin: 30px auto;
 }
