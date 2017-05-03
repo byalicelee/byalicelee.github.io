@@ -188,6 +188,7 @@ p {
 	clear: both;
 }
 
+
 .about p {
    font-family: "freight-text-pro",Georgia,serif;
    font-size: 10.5pt;
@@ -331,6 +332,7 @@ iframe {max-width:90%;
 
 .text {
 	margin: 35px auto;
+	font-size:12pt;
 }
 
 .quote {

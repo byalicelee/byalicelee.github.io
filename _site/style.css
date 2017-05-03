@@ -187,6 +187,10 @@ p {
 	clear: both;
 }
 
+.lede {
+	font-size:12pt !important;
+}
+
 .about p {
    font-family: "freight-text-pro",Georgia,serif;
    font-size: 10.5pt;
