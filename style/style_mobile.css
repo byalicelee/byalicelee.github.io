@@ -1,0 +1,19 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 970px) {
+ .left, .right{
+ 	float:none !important;
+  	max-width:100%; 
+    text-align: center !important;
+    width: 500px !important;
+    margin: 0 auto !important;
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+.blob01, .blob03{
+	display:none;
+}
+
+.gradient-bg{
+	    background-image: linear-gradient(transparent 140px, rgb(184, 223, 147) 0px) !important;
+}
