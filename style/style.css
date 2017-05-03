@@ -254,7 +254,7 @@ p {
 	 }
 		 
  .comingSoon {
-	 opacity:.5;
+	 opacity:.4;
  }
 
 
@@ -442,7 +442,7 @@ ul {padding-top:0px;margin-top:0px !important;}
 }
 .lg-1 .spot {
    width: 130px;
-   padding-top: 100px;
+   padding-top: 80px;
    padding-left: 10px;
    padding-bottom: 30px;
 }
@@ -616,6 +616,10 @@ a{
 .left {
 	float:left;
 	
+}
+
+.right.char {
+	text-align: right;width: 290px;margin:-260px 40px 0px 0px;
 }
 
 .text.left, .text.right{

@@ -92,3 +92,17 @@ footer .links {
 .pages .right, .pages .left {
 	float:none;
 }
+
+/* WF */
+
+.left.char, .right.char {
+	float:none;
+	display:block;
+	    padding: 0;
+    margin: 0 auto;
+}
+
+.right.char {
+	padding-top:50px;
+	width:500px;
+	max-width:90%;
