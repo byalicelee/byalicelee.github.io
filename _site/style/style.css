@@ -38,7 +38,7 @@ article, header, nav, section {
 }
 
 .links img {
-   height: 12px;
+   height: 16px;
    width: auto;
    opacity: .8;
 	padding: 0 5px 0 0;
@@ -412,6 +412,8 @@ ul {padding-top:0px;margin-top:0px !important;}
   width: 30%
 }
 
+.mobile {display:none;}
+
 .lg {
 	width:100%;
 }
@@ -498,6 +500,10 @@ ul {padding-top:0px;margin-top:0px !important;}
 
 }
 
+.head-blob {
+	padding-top:50px;width:230px
+}
+
 .box {
 	    position: absolute;
 }
@@ -535,21 +541,6 @@ img {
 	    height: auto;
 }
 
-@media only screen and (max-width: 1085px){
-  body{
-    font-size: 16px;
-  }
-
-  .wrap{
-    margin: 15px auto;
-  }
-
-  .primary-header,  .content{
-    float: none;
-    width: auto;
-  }
-
-}
 
 
 
