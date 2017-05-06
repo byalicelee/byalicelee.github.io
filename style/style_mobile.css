@@ -10,7 +10,7 @@
     padding-left:0;
 }
 
-.blob01, .blob03{
+.blob01{
 	display:none;
 }
 
@@ -91,6 +91,9 @@ footer .links {
 
 .pages .right, .pages .left {
 	float:none;
+	    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* WF */
