@@ -185,22 +185,30 @@
     padding: 30px;
     margin-bottom: -20px;
 	}
-	.med {
+.med {
 		width:650px;
+		max-width:90%;
 	}
 
-	.left {
-    margin-left: 70px;
+.left {
+    padding-left: 70px;
 }
 
 .right {
 	padding-right: 30px;
 }
 
+@media only screen and (max-width: 1005px) {
+	.left, .right {
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+
 
 </style>
 
-<div class="wrap" style="background-image: url(img/header_bg.png); ">	
+<div class="wrap">	
 	<div class="pages content">	
 	
 	

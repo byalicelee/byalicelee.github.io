@@ -85,6 +85,9 @@ footer .links {
     text-align: center;
 }
 
+footer {
+	max-width:80%;
+}
 
 
 /* pages */ 
@@ -113,4 +116,17 @@ footer .links {
 
 .WF-header {
 	    padding-left: 20px
+}
+
+
+/* WP */
+
+.text.left, .text.right{
+	width:500px;
+	max-width:90%;
+	text-align:left;
+}
+
+img.left, img.right {
+	max-width:90%;
 }

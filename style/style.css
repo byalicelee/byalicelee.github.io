@@ -12,6 +12,7 @@ body{
 	transition: .7s;
 }
 
+
 img, video, object{ max-width: 90% }
 
 .half {width:49.5%; float:left;}
@@ -626,6 +627,7 @@ a{
 }
 
 .text.left, .text.right{
+
    width: 330px;
    clear: none;
    text-align: left;
