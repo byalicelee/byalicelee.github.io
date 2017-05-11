@@ -424,7 +424,7 @@ ul {padding-top:0px;margin-top:0px !important;}
 
 .lg-1{
    max-width: 20%;
-   margin: 0 20px;
+   margin: 0 20px 0 30px;
    float: left;
    width: 170px;
 }
@@ -445,10 +445,10 @@ ul {padding-top:0px;margin-top:0px !important;}
 	margin:0 auto;
 }
 .lg-1 .spot {
-   width: 130px;
-   padding-top: 80px;
+   width: 140px;
+   padding-top: 70px;
    padding-left: 10px;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
 }
 
 .lg-2 {
