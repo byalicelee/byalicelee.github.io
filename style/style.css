@@ -391,6 +391,12 @@ ul {padding-top:0px;margin-top:0px !important;}
 	font-style:italic;
 }
 
+.spot {
+	padding-top:70px;
+	padding-bottom:0 !important;
+	width:50px;
+}
+
 /* About
 ================================ */
 
@@ -635,14 +641,7 @@ a{
 	
 }
 
-.text.right {
-   padding-right: 110px;
-       padding-top: 0;
-}
 
-.text.left {
-   padding-left: 80px;
-}
 
 .caption {
 width: 600px;
