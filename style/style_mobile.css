@@ -122,9 +122,11 @@ footer {
 /* WP */
 
 .text.left, .text.right{
-	width:500px;
+	width:500px !important;
 	max-width:90%;
 	text-align:left;
+	padding-left:0px !important;
+	padding-right:0px !important;
 }
 
 img.left, img.right {
