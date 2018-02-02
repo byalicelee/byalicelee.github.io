@@ -34,7 +34,7 @@
 	    overflow: hidden;
 	    left: 0;
 	}
-	.water {
+	.airbnb, .slack {
 	    position: absolute;
 	    width: 100%;
 	    height: 620px;
@@ -42,27 +42,16 @@
 	    background-repeat: no-repeat;
 	    background-position: top center;
 	    background-size: 100%;
-	    background-position-y: -150px;
 	    transform: translate3d(0px, 0px, 0px);
 	    transform-style: preserve-3d;
 	    backface-visibility: hidden;
 	}
-	.layer1 {
-	    background-image: url("01.png");
-	}
-	.layer2 {
-	    background-image: url("02.png");
-	}
-	.layer3 {
-	    background-image: url("03main.png");
-	}
-	.layer4 {
-	    background-image: url("04planets.png");
+
+	.airbnb {
+			    background-position-y: -150px;
+
 	}
 
-	.layer5 {
-	    background-image: url("05bg.png");
-	}
 
 	.nav{
 		height:50px;
@@ -146,15 +135,15 @@ $(document).mousemove(function(e) {
 
 	<div class="parallax ">
 
-   		 <div class="water layer5" ></div>
+   		 <div class="slack layer5" style="background-image: url('slack/05.png');"></div>
 
-      	 <div class="water layer4" ></div>
+   		 <div class="slack layer4" style="background-image: url('slack/04.png');"></div>
 
-     	 <div class="water layer3" ></div>
+   		 <div class="slack layer3" style="background-image: url('slack/03.png');"></div>
 
-    	 <div class="water layer2" ></div>
+   		 <div class="slack layer2" style="background-image: url('slack/02.png');"></div>
 
-    	 <div class="water layer1" ></div>
+   		 <div class="slack layer1" style="background-image: url('slack/01.png');"></div>
    
 	</div>
 
@@ -169,6 +158,26 @@ $(document).mousemove(function(e) {
 
 
   	</div>
+
+	<br style="clear:both;"> 
+
+
+  		<div class="parallax ">
+
+   		 <div class="airbnb layer5" style="background-image: url('airbnb/05.png');"></div>
+
+   		 <div class="airbnb layer4" style="background-image: url('airbnb/04.png');"></div>
+
+   		 <div class="airbnb layer3" style="background-image: url('airbnb/03.png');"></div>
+
+   		 <div class="airbnb layer2" style="background-image: url('airbnb/02.png');"></div>
+
+   		 <div class="airbnb layer1" style="background-image: url('airbnb/01.png');"></div>
+   
+	</div>
+
+
+
   <script>
   // tell the embed parent frame the height of the content
   if (window.parent && window.parent.parent){
