@@ -1,0 +1,176 @@
+<html><head>
+
+
+  <title>by Alice Lee</title>
+
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+
+
+  <style type="text/css">
+	@font-face {
+		font-family: "Circular";
+		src: url("fonts/circular/CircularStd-Book.otf");
+	}
+
+  	body {
+  		  font-family: "Circular", Helvetica,sans-serif;
+  		  font-size: 13px;
+  	}
+
+  	a {
+  		text-decoration: none;
+  		color:#69628a;
+  	}
+
+  	.wrapper {
+  		width:900px;
+  		margin:0 auto;
+  	}
+
+    .parallax {
+	    position: absolute;
+	    width: 100%;
+	    height: 800px;
+	    overflow: hidden;
+	    left: 0;
+	}
+	.water {
+	    position: absolute;
+	    width: 100%;
+	    height: 620px;
+	    left: 0;
+	    background-repeat: no-repeat;
+	    background-position: top center;
+	    background-size: 100%;
+	    background-position-y: -150px;
+	    transform: translate3d(0px, 0px, 0px);
+	    transform-style: preserve-3d;
+	    backface-visibility: hidden;
+	}
+	.layer1 {
+	    background-image: url("01.png");
+	}
+	.layer2 {
+	    background-image: url("02.png");
+	}
+	.layer3 {
+	    background-image: url("03main.png");
+	}
+	.layer4 {
+	    background-image: url("04planets.png");
+	}
+
+	.layer5 {
+	    background-image: url("05bg.png");
+	}
+
+	.nav{
+		height:50px;
+		width:100%;
+		background-color:white;
+		padding-top:26px;
+
+	}
+
+	.nav .links {
+		float:right;
+	}
+
+	.nav .links a {
+		padding-left:26px;
+	}
+
+	.clearfix{
+		 clear: both; 
+	}
+
+  </style>
+
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+var currentX = '';
+var currentY = '';
+var movementConstant = .015;
+$(document).mousemove(function(e) {
+  if(currentX == '') currentX = e.pageX;
+  var xdiff = e.pageX - currentX;
+  currentX = e.pageX;
+   if(currentY == '') currentY = e.pageY;
+  var ydiff = e.pageY - currentY;
+  currentY = e.pageY; 
+  $('.parallax div').each(function(i, el) {
+      var movement = (i + 1) * (xdiff * movementConstant);
+	  var movementy = (i + 1) * (ydiff * movementConstant);
+      var newX = $(el).position().left + movement;
+	  var newY = $(el).position().top + movementy;
+      $(el).css('left', newX + 'px');
+	  $(el).css('top', newY + 'px');
+  });
+});
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+
+	<div class="nav">
+		<div class="wrapper">
+		<img src="logo">
+
+		<div class="links">
+			<a href="">Portfolio</a>
+			<a style="opacity:.4" href="">Workshops &amp; Speaking</a>
+			<a style="opacity:.4"  href="">Info</a>
+			<a style="opacity:.4"  href="">Contact</a>
+		</div>
+		</div>
+
+	</div>
+
+	<div class="parallax ">
+
+   		 <div class="water layer5" ></div>
+
+      	 <div class="water layer4" ></div>
+
+     	 <div class="water layer3" ></div>
+
+    	 <div class="water layer2" ></div>
+
+    	 <div class="water layer1" ></div>
+   
+	</div>
+
+	<br style="clear:both;">
+	<div class="wrapper">
+
+	<img style="width:700px;" src="body.png">
+
+
+  rwerwe
+  	</div>
+  <script>
+  // tell the embed parent frame the height of the content
+  if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "JmUL8"
+    }], "*")
+  }
+</script>
+
+
+
+
+
+</body></html>
