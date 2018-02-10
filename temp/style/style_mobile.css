@@ -9,7 +9,19 @@
     padding-right:0;
     padding-left:0;
 }
+.header img {
+    max-width: 70%;    text-align: left;
+    float: left;
 
+}
+.comingSoon {
+	    max-width:39%;
+
+}
+
+.wrap.caption{
+	max-width: 95%;}
+	
 .blob01{
 	display:none;
 }

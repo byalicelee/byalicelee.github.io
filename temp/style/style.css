@@ -51,8 +51,7 @@ article, header, nav, section {
 
 .header {color:#888888;}
 .header img {
-    width: 940px;    text-align: left;
-    float: left;
+    width: 700px;    float:left;text-align: left;
 
 }
 
@@ -255,13 +254,23 @@ p {
 	 }
 		 
  .comingSoon {
+    margin: 0 auto;
+    text-align: left;    
+    width: 250px;
+    padding-top: 0px;
+    padding-left: 20px;
     float: left;
-    width: 240px;
-    padding-top: 110px;
-    text-align: left;
-    padding-left: 50px;
+    padding-top: 70px;
 }
 
+.subheader {
+	    font-size: 12px;
+    color: #cecece;
+}
+
+.subheader a {
+	color:#baa4bd;
+}
 .comingSoon p{
  		 font-family: "futura-pt",sans-serif;
 }
@@ -325,7 +334,7 @@ p {
 	
 iframe {max-width:90%;
 }
-/* footer */
+/*4 */
 	
 .credits {
 	font-style:italic;
@@ -334,8 +343,8 @@ iframe {max-width:90%;
 	margin:0 auto;
 }
 
-.footer {padding: 0 0px 40px 0;
-font-size:16px;}
+.footer {padding: 80px 0px 40px 0;
+font-size:14px;}
 
 .foot {padding:0px 0;}
 
@@ -438,19 +447,15 @@ ul {padding-top:0px;margin-top:0px !important;}
 }
 
 .wrap.caption{
-	    clear: both;
     text-align: left;
-    width: 770px;
-    padding-top: 15px;
+    width: 1200px;
+    padding-top: 2px;
 }
 
 .wrap.caption p {
-	font-size:10px;
+	font-size:13px;
 	 		 font-family: "futura-pt",sans-serif;
-	 letter-spacing:1px;
-    font-family: "freight-text-pro",Georgia,serif;
     color: #cecece;
-    font-style: italic;
 }
 .wrap.top{
 	    width: 100%;
@@ -550,7 +555,6 @@ ul {padding-top:0px;margin-top:0px !important;}
 }
 
 .head-navi{
-	width: 400px;
     padding-top: 60px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -560,12 +564,8 @@ ul {padding-top:0px;margin-top:0px !important;}
 }
 
 .head {
-    padding: 30px 0 35px 0;
-    overflow: visible;
-    background-image: url(img/swash01.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 42px;}
+    padding: 30px 0 0px 0;
+
 
 
 
@@ -602,8 +602,8 @@ ul {padding-top:0px;margin-top:0px !important;}
 	
 .content{
 	text-align:center;
-  max-width: 100%;
-  overflow:auto; 
+	width:1000px;
+	margin:0 auto;  overflow:auto; 
       padding-bottom: 50px;
 }
 
@@ -709,12 +709,10 @@ max-width:90%;
     margin: 0 auto;
     text-align: left;
     font-family: "futura-pt",sans-serif;
-    padding-bottom: 30px;
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 300;
     color: #b3b3b3;
-    padding-bottom: 60px;
 }
 
 .right {

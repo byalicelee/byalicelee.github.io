@@ -53,7 +53,6 @@
 
   
 <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   
 </head>
@@ -96,7 +95,7 @@
 
 <div class="wrap">
 
-	<div class="head" style="background-image: url(img/swash01.png);">
+	<div class="head" >
 
 		<div class="left abstract-left">
 	
@@ -127,6 +126,11 @@
 					</a>
 				</span>
 
+				<span class="navi">
+					<a class="" href="http://instagram.com/byalicelee">
+						Instagram
+					</a>
+				</span>
 	</div>
 		<br style="clear:both;">
 	
@@ -157,12 +161,14 @@
 				<div>
 					<img src="img/slack@2x.png">
 				</div>
+
+				<!--
 				<div>
 					<img src="img/airbnb@2x.png">
 				</div>
 				<div>
 					<img src="img/personal@2x.png">
-				</div>
+				</div>-->
 			</div>
 
 
@@ -170,12 +176,14 @@
 		
 			<div class="comingSoon">
 				<h1>We’re making this space way more awesome.</h1>
-				<p>In the meantime, take a look around at some recent projects.</p>	
+				<p>In the meantime, take a look around at some recent projects!</p>	
+
+				<p class="subheader">Left: illustrations for Slack (view on <a href="http://slack.com">Slack.com</a>)</p>
 			</div>
 		</div>	
-		<div class="wrap caption" style="clear:both;">
+		<!--<div class="wrap caption" style="clear:both;">
 			<p>Illustrations for Slack</p>
-		</div>
+		</div>-->
 	</div>
 
 	<div class="bottom">
@@ -200,25 +208,9 @@
 			</a>
 		</div>
 
-		<div class="proj left" >
-			<a href="/wordpress.html">
-				<img src="img/wordpress@2x.png" style="width: 280px;    padding-bottom: 30px;	">
-				<p class="title">WordPress</p>
-				<p class="description">Creating a more inclusive 
-illustrative brand</p>
-				
-			</a>
-		</div>
 
-		<div class="proj right">
-			<a href="/slack.html">
-				<img src="img/slacked@2x.png" style="padding-bottom: 3px;">
-				<p class="title">Slack</p>
-				<p class="description">Selection of editorial illustrations
-done for Slack</p>
-				
-			</a>
-		</div>
+
+
 
 		<div class="proj left">
 			<a href="/macys.html">
@@ -237,9 +229,29 @@ done for Slack</p>
 				
 			</a>
 		</div>
-	
+
+				<div class="proj left">
+			<a href="/slack.html">
+				<img src="img/slacked@2x.png" style="padding-bottom: 3px;">
+				<p class="title">Slack</p>
+				<p class="description">Selection of editorial illustrations
+done for Slack</p>
+				
+			</a>
+		</div>
+			<div class="proj right" >
+			<a href="/wordpress.html">
+				<img src="img/wordpress@2x.png" style="width: 280px;    padding-bottom: 30px;	">
+				<p class="title">WordPress</p>
+				<p class="description">Creating a more inclusive 
+illustrative brand</p>
+				
+			</a>
+		</div>
 	
 		</div> 
+			<br style="clear:both;">
+
 	</div>
 
 
@@ -251,19 +263,18 @@ done for Slack</p>
 
     <footer class="wrap footer">
 	
-	<br style="clear:both;">
 
-	<img src="/img/swash02.png"
+	<img src="img/swash01.png" style="float:right;margin-top:-50px">
 
-<div class="links" style="padding-top:50px;">
-<a target="_blank" href="mailto:hello@alice-lee.com"><img src="/thumbs/mail@2x.png" width="40" height="36"></a>
-<a target="_blank" href="http://twitter.com/byalicelee"><img src="/thumbs/twitter@2x.png" width="39" height="36"></a>
-<a target="_blank" href="http://instagram.com/byalicelee"><img src="/thumbs/insta@2x.png" width="36" height="36"></a>
+<div class="links" >
+<a target="_blank" href="mailto:hello@alice-lee.com"><img src="img/mail@2x.png" width="40" height="36"></a>
+<a target="_blank" href="http://twitter.com/byalicelee"><img src="img/twitter@2x.png" width="39" height="36"></a>
+<a target="_blank" href="http://instagram.com/byalicelee"><img src="img/insta@2x.png" width="36" height="36"></a>
 </div>
 
-<div class="right italic" style="text-transform:lowercase;">
-	<a href="/">home</a> · <a href="mailto:hello@alice-lee.com">contact</a>
-</div>
+<div class=" italic" style="text-transform:lowercase; padding-left: 5px;
+">
+	thanks for visiting! awesomeness coming, very soon.
 
   
 </footer>
@@ -279,9 +290,14 @@ done for Slack</p>
 <script>
 
 $(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
-  });
+	$('.fade').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  cssEase: 'linear'
+	});
+		
 });
 </script>
 
