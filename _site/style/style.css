@@ -12,8 +12,10 @@ body{
 	transition: .7s;
 }
 
-
-img, video, object{ max-width: 90% }
+@font-face {
+font-family: "Circular";
+src: url("/style/fonts/CircularStd-Book.otf");
+}
 
 .half {width:49.5%; float:left;}
 
@@ -48,28 +50,30 @@ article, header, nav, section {
 
 
 .header {color:#888888;}
+.header img {
+    width: 100%;    float:left;text-align: left;
+
+}
 
 br {clear:both;}
-.title, .banners a, .header, h2, .title, .pageSubtitle {
-   font-size: 12px;
-   font-weight: 200;
+.title, .banners a, .header, h2, .pageSubtitle {
+    font-size: 18px;   font-weight: 200;
   font-family: "futura-pt",sans-serif !important;
-   text-transform: uppercase;
-	letter-spacing:2px;
+
+
 }
 
 h1 {
-   font-size: 15px;
-   font-weight: 200;
-  font-family: "futura-pt",sans-serif;
-   letter-spacing: 2px;
+    font-size: 27px;
+    font-weight: 200;
+    font-family: "futura-pt",sans-serif;
+    line-height: 33px;
 }
 
 .pages h1 {
-	text-transform: uppercase;
     margin-bottom: -15px;
     padding: 0;
-    font-size: 12px;
+    font-size: 28px;
     margin-top: 50px;
 }
 
@@ -89,13 +93,7 @@ h1 {
 	padding-top:100px;
 }
 
-.title {
-	font-size: 16px;
-	  letter-spacing: 4px;
-	  margin: 0 0 -3px 0;
-	  padding-top: 0;
-	  color: #444444 !important;
-}
+
 
 .subtitle {
 	font-size:15px;
@@ -204,6 +202,7 @@ p {
 	height:auto;
 	max-width:90%;
 	padding-bottom:30px;
+	width:700px;
 }
 
 .div {
@@ -243,22 +242,40 @@ p {
 
 
 .description {
-	float:right;
 	font-family: "freight-text-pro",Georgia,serif;
 	font-size:14px;
 	color: #cecece;
 	font-style: italic;
-	padding-right: 20px;
 	clear: none;
-	    padding-top: 0px;
-	 
+	 margin-top: -4px;
+	  width: 170px;
+    line-height: 20px;
+
 	 }
 		 
  .comingSoon {
-	 opacity:.4;
- }
+    margin: 0 auto;
+    width: 370px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
 
+.subheader {
+	    font-size: 12px;
+    color: #cecece;
+    text-align:left;
+     		 font-family: "futura-pt",sans-serif;
+padding:10px 0;
+margin:0;
+}
 
+.subheader a {
+	color:#baa4bd;
+}
+.comingSoon p{
+ 		 font-family: "futura-pt",sans-serif;
+}
 
 
 
@@ -275,14 +292,31 @@ p {
 	
 .proj {
 	float:right;
-	padding:0;
-	text-align:left;
+	padding:30px !important;
+	text-align:center;
+	width:370px;
+
+
+
+}
+
+.proj.left {
+	margin-right:0px;
+	    clear: both;
+}
+
+.proj .right {
+	clear:both;
 }
 
 .proj img {
-	max-width:90%;
-	max-height:100%;
-	    height: auto;
+    max-height: 100%;
+    height: auto;
+    height: 320px;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .proj h1{ 
@@ -293,19 +327,16 @@ p {
 
 .proj p {
    padding: 0;
-   margin: 0;
-   color: #B3B3B3;
-   font-size: 13px;
-   font-style: italic;
-   font-weight: 500;
-   text-transform: lowercase;
-   margin-top: -3px;
+   margin: 0 auto; 
+   text-align:center;
+
+
 	
 }
 	
 iframe {max-width:90%;
 }
-/* footer */
+/*4 */
 	
 .credits {
 	font-style:italic;
@@ -314,8 +345,8 @@ iframe {max-width:90%;
 	margin:0 auto;
 }
 
-.footer {padding: 0 0px 40px 0;
-font-size:16px;}
+.footer {padding: 80px 0px 40px 0;
+font-size:14px;}
 
 .foot {padding:0px 0;}
 
@@ -417,6 +448,25 @@ ul {padding-top:0px;margin-top:0px !important;}
       background-size: contain;
 }
 
+.wrap.caption{
+    text-align: left;
+    width: 1200px;
+    padding-top: 2px;
+}
+
+.wrap.caption p {
+	font-size:13px;
+	 		 font-family: "futura-pt",sans-serif;
+    color: #cecece;
+}
+.wrap.top{
+	    width: 100%;
+    max-width: 1500px;
+}
+.bottom{
+    width: 860px;
+    margin: 0 auto;}
+
 .primary-header{
   float: right;
   width: 30%
@@ -494,7 +544,7 @@ ul {padding-top:0px;margin-top:0px !important;}
    font-family: "freight-big-pro",sans-serif;
 	float:left; 
 	float: left;
-	    width: 270px;
+	    width: 60px;
 	    height: auto;
 	    padding: 34px 0 22px 0px;
 	
@@ -502,14 +552,22 @@ ul {padding-top:0px;margin-top:0px !important;}
 
 .abstract-left {
     margin-top: 0;
-    margin-left: -30px;
+}
+
+.head-navi{
+    padding-top: 60px;
     background-repeat: no-repeat;
-    background-position: 0px;
-    padding: 40px 0 0 60px;
+    background-position-y: center;
+    background-position-x: right;
+
+    background-size: 270px;
 }
 
 .head {
-    margin: 0 0 30px 0;	    overflow: visible;
+    padding: 30px 0 0px 0;
+
+
+
 
 }
 
@@ -533,24 +591,27 @@ ul {padding-top:0px;margin-top:0px !important;}
 
 .navi {
 	    padding-left: 60px;
-	    font-size: 12px;
+	    font-size: 16px;
 	    padding: 0 40px 0 0 ;
 	    margin: 2px 0px;
 	    font-weight: 200;
  		 font-family: "futura-pt",sans-serif;
-	    text-transform: uppercase;
-	    letter-spacing: 3px;
+	    letter-spacing: 1px;
 	    float: left;
 	}
 	
 .content{
 	text-align:center;
-  max-width: 100%;
-  overflow:auto; 
+	width:1000px;
+	margin:0 auto;  overflow:hidden; 
+      padding-bottom: 50px;
+}
+
+.content, .bottom {
+	    max-width: 100%;
 }
 
 img {
-	max-width:90%;
 	    height: auto;
 }
 
@@ -652,12 +713,10 @@ max-width:90%;
     margin: 0 auto;
     text-align: left;
     font-family: "futura-pt",sans-serif;
-    padding-bottom: 30px;
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 300;
     color: #b3b3b3;
-    padding-bottom: 60px;
 }
 
 .right {
