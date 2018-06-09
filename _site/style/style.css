@@ -25,6 +25,14 @@ article, header, nav, section {
     display: block;
 }
 
+::selection {
+	background:#F5ECFA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #F5ECFA; /* Gecko Browsers */
+}
+
+
 /* Homepage */
 
 .info {
@@ -542,11 +550,11 @@ ul {padding-top:0px;margin-top:0px !important;}
    color: #B4B2B7;
    font-weight: 100;
    font-family: "freight-big-pro",sans-serif;
-	float:left; 
-	float: left;
-	    width: 60px;
-	    height: auto;
-	    padding: 34px 0 22px 0px;
+   float: left;
+   float: left;
+   width: 320px;
+   height: auto;
+   padding: 17px 0 22px 0px;
 	
 }
 
